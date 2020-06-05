@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Service</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    
+    <style>
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 30px;
+  
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  transform-origin: 0 0;
+  
+}
+.py-24 {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+    </style>
+</head>
+<body>
+    <!--Header-nav-->
+<header class="text-gray-700 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+       <img src="media/itsvg.png" height="50" width="50">
+      <span class="ml-3 text-xl"> <strong>IT SERVICE</strong></span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a href="/" class="mr-5 hover:text-black-900"><b>HOME</b></a>
+      <a href="#" class="mr-5 hover:text-black-900"><b>WEB DESIGNING</b></a>
+      <a href="#" class="mr-5 hover:text-black-900"><b>PRISING</b></a>
+      <a href="#" class="mr-5 hover:text-black-900"><b>ABOUT US</b></a>
+      <a href="#" class="mr-5 hover:text-black-900"><b>CONTACT US</b></a>
+    </nav>
+  </div>
+</header>
+  <!--End Header-nav-->
+
+  {% block content %}
+  {% endblock content %}
+
+        <footer class="py-3 bg-grey">
+            <p class="m-0 text-dark text-center ">Copyright &copy; IT-Service</p>
+        </footer>
+    </body>
+</html>
