@@ -1,16 +1,16 @@
 {% extends "base.html" %} 
 {% block content %}
-
+{% load static %}
 <!-- Blog Section-->
 <section class="text-gray-700 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="media/coding.jpg" alt="blog">
+          <img src="{% static "media/logodesign.jpg" %}" alt="LOGO DESIGNS">
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BLOGGER DESIGNING</h1>
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1"></h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">LOGO DESIGNING</h1>
             <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
             <div class="flex items-center flex-wrap ">
               <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
@@ -36,10 +36,10 @@
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="media/html.jpg" alt="blog">
+          <img src="{% static "media/Web_Development.jpeg" %}" alt="WEB DEVELOPMENT">
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">HTML/CSS TEMPLATES</h1>
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1"></h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">WEB DEVELOPMENT</h1>
             <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
             <div class="flex items-center flex-wrap">
               <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
@@ -65,10 +65,10 @@
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="media/website.png" alt="blog">
+          <img src="{% static "media/web_application_framework.png" %}" alt="WEB APP & SOFT">
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">WEB DESIGNING</h1>
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1"></h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">SOFTWARE & WEB APPLICATION</h1>
             <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
             <div class="flex items-center flex-wrap ">
               <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
@@ -112,7 +112,7 @@
             <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
             <span class="flex-grow flex flex-col pl-4">
               <span class="title-font font-medium text-gray-900">ER. DEEPAK K PATIDAR</span>
-              <span class="text-gray-500 text-sm">FOUNDER & DEVELOPER</span>
+              <span class="text-gray-500 text-sm">FULL STACK DEVELOPER</span>
             </span>
           </a>
         </div>
